@@ -1,0 +1,53 @@
+{
+  "registrations": [
+    {
+      "id": "1",
+      "eventName": "Tech Summit 2026",
+      "category": "Conference",
+      "date": "2026-03-15",
+      "status": "Registered"
+    },
+    {
+      "id": "2",
+      "eventName": "Design Thinking Workshop",
+      "category": "Workshop",
+      "date": "2026-02-20",
+      "status": "Attended"
+    },
+    {
+      "id": "3",
+      "eventName": "AI & Machine Learning Webinar",
+      "category": "Webinar",
+      "date": "2026-04-10",
+      "status": "Registered"
+    },
+    {
+      "id": "4",
+      "eventName": "Leadership Development Seminar",
+      "category": "Seminar",
+      "date": "2026-02-05",
+      "status": "Cancelled"
+    },
+    {
+      "id": "5",
+      "eventName": "Startup Pitch Competition",
+      "category": "Conference",
+      "date": "2026-05-22",
+      "status": "Registered"
+    },
+    {
+      "id": "6",
+      "eventName": "Digital Marketing Masterclass",
+      "category": "Workshop",
+      "date": "2026-01-28",
+      "status": "Attended"
+    },
+    {
+      "id": "3bbf",
+      "eventName": "Graduation",
+      "category": "Celebration",
+      "date": "2025-08-27",
+      "status": "Registered"
+    }
+  ]
+}
