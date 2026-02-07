@@ -8,11 +8,11 @@
       "status": "Registered"
     },
     {
-      "id": "2",
-      "eventName": "Design Thinking Workshop",
+      "eventName": "Administration workshop",
       "category": "Workshop",
       "date": "2026-02-20",
-      "status": "Attended"
+      "status": "Attended",
+      "id": "2"
     },
     {
       "id": "3",

@@ -56,7 +56,7 @@ function displayRegistrationsCards(registrations) {
         const col = document.createElement('div');
         col.className = 'col-md-6 col-lg-4';
         col.innerHTML = `
-            <div class="card h-100 border-0 shadow-sm rounded-4">
+            <div class="card h-100 border-0 shadow-md rounded-4">
                 <div class="card-body p-4">
                     <h5 class="card-title fw-bold mb-3">${registration.eventName}</h5>
                     <p class="card-text mb-2">
