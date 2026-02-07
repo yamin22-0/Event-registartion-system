@@ -48,6 +48,13 @@
       "category": "Celebration",
       "date": "2025-08-27",
       "status": "Registered"
+    },
+    {
+      "id": "593a",
+      "eventName": "supermarket opening",
+      "category": "ceremony",
+      "date": "2034-03-04",
+      "status": "Cancelled"
     }
   ]
 }

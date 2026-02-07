@@ -9,7 +9,7 @@
 </head>
 <body style="background-color: #f8f9fa;">
 
-    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #ffd60a;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffd60a;">
         <div class="container">
             <a class="navbar-brand fw-bold text-dark" href="#home">
                 <i class="bi bi-calendar-event me-2"></i>Event-Reg
@@ -23,7 +23,7 @@
                         <a class="nav-link text-dark fw-semibold" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark fw-semibold" href="#features">Events</a>
+                        <a class="nav-link text-dark fw-semibold" href="#events">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark fw-semibold" href="#registrations">My Registrations</a>
@@ -31,20 +31,33 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark fw-semibold" href="#dashboard">Dashboard</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="home" class="d-flex align-items-center justify-content-center text-center position-relative" style="min-height: 70vh; background: linear-gradient(rgba(255, 214, 10, 0.7), rgba(176, 196, 177, 0.7)), url('') center/cover no-repeat;">
+    <section id="home" class="d-flex align-items-center"
+        style="min-height:70vh;background:linear-gradient(rgba(255,214,10,0.7),rgba(176,196,177,0.7));">
         <div class="container">
-            <h1 class="display-3 fw-bold text-dark mb-3">Seamless Event Registration Management</h1>
-            <p class="lead text-dark fs-4 mb-4">Register, Track, and Manage Your Events Effortlessly</p>
-            <a href="#dashboard" class="btn btn-dark btn-lg px-5 py-3 rounded-pill">Get Started</a>
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h1 class="display-3 fw-bold text-dark mb-3">Seamless Event Registration Management</h1>
+                    <p class="lead text-dark fs-4 mb-4">Register, Track, and Manage Your Events Effortlessly</p>
+                    <a href="#dashboard" class="btn btn-dark btn-lg px-5 py-3 rounded-pill">Get Started</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/image 1.jpg"
+                        class="img-fluid rounded-4 shadow" alt="Event Registration">
+                </div>
+            </div>
         </div>
     </section>
+    
 
-    <section id="features" class="py-5" style="background-color: white;">
+    <section id="events" class="py-5" style="background-color: white;">
         <div class="container">
             <h1 class="text-center mb-3 fw-bold">Our Features</h1>
             <p class="text-center text-muted mb-5">Everything you need to manage your event registrations efficiently</p>
@@ -161,7 +174,7 @@
         </div>
     </section>
 
-    <footer class="py-5" style="background-color: #ffd60a;">
+    <footer  id="contact" class="py-5" style="background-color: #ffd60a;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4">
